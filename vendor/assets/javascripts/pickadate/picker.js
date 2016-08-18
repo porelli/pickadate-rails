@@ -776,7 +776,7 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
         else {
             name = [
                 typeof SETTINGS.hiddenPrefix == 'string' ? SETTINGS.hiddenPrefix : '',
-                typeof SETTINGS.hiddenSuffix == 'string' ? SETTINGS.hiddenSuffix : '_submit'
+                typeof SETTINGS.hiddenSuffix == 'string' ? SETTINGS.hiddenSuffix : ''
             ]
             name = name[0] + ELEMENT.name + name[1]
         }
